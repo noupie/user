@@ -1,0 +1,61 @@
+body{
+  background: linear-gradient(-240deg, rgb(40, 67, 141) 70%, rgb(6, 39, 98) 70% );
+  background-attachment: fixed;
+  color: white;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.heading{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -70px;
+}
+.heading-left{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.logo{
+  height: 50px;
+  margin-top: -16px;
+  margin-right: 10px;
+  margin-left: 70px;
+}
+.user-name{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin-left: 255px;
+  margin-right: 340px;
+}
+.profile-pic{
+  height: 50px;
+  margin-top: -15px;
+  margin-left: 200px;
+  margin-right: 150px;
+}
+.games-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 120px;
+}
+.game-pic0, .game-pic1, .game-pic2, .game-pic3, .game-pic4{
+  height: 200px;
+  
+}
+
+.hover-pic{
+  height: 250px;
+}
+
+.hover-style{
+  background-color: rgba(183, 191, 195, 0.425);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 7px;
+}
